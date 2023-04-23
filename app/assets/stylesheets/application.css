@@ -1,0 +1,213 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree
+ *= require_self
+ */
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 33px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+pre {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;
+}
+
+a {
+    color: #000;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+ul li {
+    font-size: 12px;
+    list-style: square;
+}
+
+label {
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.form-group {
+    padding-bottom: 10px;
+    position: relative;
+    margin: 8px 0 0; }
+
+textarea {
+    height: auto !important;
+    resize: none;
+    line-height: 1.42857 !important; }
+
+.form-group input[type=file] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
+
+.form-group {
+    margin-bottom: 1rem; }
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem; }
+
+.form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px; }
+.form-row > .col,
+.form-row > [class*="col-"] {
+    padding-right: 5px;
+    padding-left: 5px; }
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem; }
+
+.form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-left: -1.25rem; }
+.form-check-input:disabled ~ .form-check-label {
+    color: #6c757d; }
+
+.form-check-label {
+    margin-bottom: 0; }
+
+/* navigation */
+.full-button{
+    float: left;
+    width: 230px;
+    margin: 0 15px 0 15px;
+}
+
+/* Table with fix header */
+.table-fixed thead, .table-fixed tr {
+    width: 100%;
+}
+
+.table-fixed tbody {
+    max-height: 70vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+    display: inline-block;
+}
+
+.table-fixed tbody td, .table-fixed thead > tr> th {
+    float: left;
+    border-bottom-width: 0;
+}
+
+/*Page details*/
+
+.page-header {
+   width: 100%;
+}
+
+dl {
+    display: flex;
+    flex-flow: row wrap;
+    background: transparent;
+    width: 100%;
+}
+dt {
+    flex-basis: 20%;
+    padding: 5px 20px;
+    text-align: right;
+    border-right: 1px solid black;
+}
+dd {
+    flex-basis: 70%;
+    flex-grow: 1;
+    padding: 0 0 0 20px;
+    margin: 0;
+    white-space: pre-line;
+}
+
+.sub-nav-products {
+    margin-bottom: 20px;
+    background: rgba(156, 39, 176, 0.1);
+}
+
+.nav-pills .nav-item i {
+    display: block;
+    font-size: 20px;
+    padding: 0
+}
+
+/*Global error for form*/
+
+.field_with_errors {
+   background: transparent;
+   width: 100%;
+}
+
+.form-control {
+    background: rgba(250, 156, 156, 0.3);
+}
+
+.add-new-icone {
+    padding-top: 20px;
+}
+
+.remove-icone-attribute-field {
+    line-height: 80px;
+}
+
+.page-blocks {
+    width: 100%;
+}
+
+.show-fields {
+    display: block;
+}
+
+.hidden-fields{
+    display: none;
+}
